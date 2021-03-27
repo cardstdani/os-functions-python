@@ -1,8 +1,5 @@
-import platform
-import sys, os, getpass
+import os, getpass
 
-print("System: " + str(platform._syscmd_ver()[0]) + " " + str(platform._syscmd_ver()[1]) + " " + str(platform._syscmd_ver()[2]))
-print("Architecture: " + str(platform.architecture()[0]))
-print("Machine: " + str(platform.machine()))
-print("Name: " + str(platform.node()))
-print("Current User: " + str(getpass.getuser()))
+print(str(os.system("net user")) + "\n")
+print(str(os.system("net user " + str(getpass.getuser()))) + "\n")
+print(str(os.system("systeminfo")) + "\n")
