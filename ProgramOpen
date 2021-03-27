@@ -1,0 +1,7 @@
+import subprocess
+
+
+subprocess.Popen('notepad.exe')
+subprocess.Popen('calc.exe')
+subprocess.Popen('taskmgr.exe')
+subprocess.Popen(r'explorer /select,"C:"')
