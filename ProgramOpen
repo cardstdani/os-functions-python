@@ -4,4 +4,8 @@ import subprocess
 subprocess.Popen('notepad.exe')
 subprocess.Popen('calc.exe')
 subprocess.Popen('taskmgr.exe')
+
+#Settings window
+subprocess.Popen('DpiScaling.exe')
+#File explorer
 subprocess.Popen(r'explorer /select,"C:"')
