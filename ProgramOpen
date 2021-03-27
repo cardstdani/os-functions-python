@@ -1,5 +1,5 @@
 import subprocess
-
+import webbrowser
 
 subprocess.Popen('notepad.exe')
 subprocess.Popen('calc.exe')
@@ -12,3 +12,5 @@ subprocess.Popen('DpiScaling.exe')
 subprocess.Popen('control.exe')
 #File explorer
 subprocess.Popen(r'explorer /select,"C:"')
+#Open url
+webbrowser.open("google.com")
