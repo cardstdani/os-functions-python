@@ -7,5 +7,7 @@ subprocess.Popen('taskmgr.exe')
 
 #Settings window
 subprocess.Popen('DpiScaling.exe')
+#Control panel
+subprocess.Popen('control.exe')
 #File explorer
 subprocess.Popen(r'explorer /select,"C:"')
