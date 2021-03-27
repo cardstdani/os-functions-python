@@ -4,6 +4,9 @@ import webbrowser
 subprocess.Popen('notepad.exe')
 subprocess.Popen('calc.exe')
 subprocess.Popen('mspaint.exe')
+subprocess.Popen('regedit.exe')
+subprocess.Popen('magnify.exe')
+subprocess.Popen('osk.exe')
 subprocess.Popen('taskmgr.exe')
 
 #Settings window
