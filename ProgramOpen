@@ -6,6 +6,7 @@ subprocess.Popen('calc.exe')
 subprocess.Popen('mspaint.exe')
 subprocess.Popen('regedit.exe')
 subprocess.Popen('taskmgr.exe')
+subprocess.Popen('dxdiag.exe')
 
 #Settings window
 subprocess.Popen('DpiScaling.exe')
